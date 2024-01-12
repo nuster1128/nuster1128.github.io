@@ -1,0 +1,115 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    max-width: 1200px;
+    line-height: 1.6;
+    margin: auto;
+    /* background-color: #f4f4f4; */
+    padding: 20px 20px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .logo {
+    width: 40px;
+    height: auto;
+    margin-right: 60px;
+}
+
+nav .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav .nav-links a:hover {
+    color: #007bff;
+}
+
+.profile {
+    display: flex;
+    align-items: center; /* 确保内容在垂直方向上居中对齐 */
+    margin-top: 20px;
+    margin-bottom: 40px; /* 按需调整外边距 */
+}
+
+.profile-photo {
+    flex: 0 0 180px; /* 根据需要调整照片的尺寸 */
+    margin-right: 30px; /* 照片和文本之间的间距 */
+}
+
+.profile-photo img {
+    width: 100%; /* 使图片填满容器 */
+    height: auto; /* 保持图片比例 */
+    /*border-radius: 50%;  如果需要圆形照片 */
+}
+
+.profile-text {
+    flex: 1; /* 文本部分占据剩余空间 */
+}
+
+.news p {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.highlights p{
+    line-height: 20px;
+}
+
+.services p {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.experiences p {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.awards p {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+
+/* ------------- publication.html */
+
+.publication p{
+    line-height: 20px;
+}
+
+.pub-item {
+    display: flex;
+    align-items: center; /* 确保内容在垂直方向上居中对齐 */
+    margin-top: 20px;
+    margin-bottom: 40px; /* 按需调整外边距 */
+}
+
+.pub-photo {
+    flex: 0 0 180px; /* 根据需要调整照片的尺寸 */
+    margin-right: 30px; /* 照片和文本之间的间距 */
+}
+
+.pub-photo img {
+    width: 100%; /* 使图片填满容器 */
+    height: auto; /* 保持图片比例 */
+    /*border-radius: 50%;  如果需要圆形照片 */
+}
